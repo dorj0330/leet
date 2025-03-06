@@ -4,6 +4,8 @@
     "*.page-template": "vue",
     "*.layout-template": "vue",
     "*.vue": "vue",
-    "random": "cpp"
+    "random": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp"
   }
 }
