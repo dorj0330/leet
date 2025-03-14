@@ -6,6 +6,13 @@
     "*.vue": "vue",
     "random": "cpp",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "barrier": "cpp",
+    "chrono": "cpp",
+    "latch": "cpp",
+    "limits": "cpp",
+    "semaphore": "cpp",
+    "valarray": "cpp",
+    "functional": "cpp"
   }
 }
