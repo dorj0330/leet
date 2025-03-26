@@ -6,7 +6,23 @@ class Solution
 public:
     string convertToTitle(int columnNumber)
     {
-        return "qwe";
+        string result;
+        int div;
+        while (columnNumber > 0)
+        {
+            div = columnNumber % 26;
+            columnNumber = columnNumber / 26;
+            if (div == 0)
+            {
+                result = 'Z' + result;
+                columnNumber--;
+            }
+            else
+            {
+                result = static_cast<char>(div + 64) + result;
+            }
+        }
+        return result;
     }
 };
 
